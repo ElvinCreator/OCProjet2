@@ -3,26 +3,63 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Reservia</title>
+        <title>Reservia</title> content="Description de la page"
         <link rel="stylesheet" href="style.css">
+
+        <!-- Kit d'icône -->
+        <script src="https://kit.fontawesome.com/f7380e3789.js" crossorigin="anonymous"></script>
+
+        <!-- Raleway Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
         <header>
-            <!--Logo-->
+            <!--Logo--><img src="images/logo/Reservia@3x.png" />
+            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+            <h2>En pleins centre ville ou en pleine nature</h2>
         </header>
 
-        <nav><!--Mettre bouton s'inscrire hébergement activité--></nav>
+        <nav>
+            <ul>
+              <li><a href="#sectionhébergement">Hébergements</a></li>
+              <li><a href="#sectionactivitée">Activités</a></li>
+              <li><a href="#S'inscire">S'inscrire</a></li>
+            </ul><!--Mettre bouton s'inscrire hébergement activité--></nav>
 
-        <section id="sectionfiltre"><!--Contient les filtres et barre de recherche--></section>
+        <section id="sectionfiltre">
+            <button type="button">Économique </button>
+            <button type="button"> Familial </button>
+            <button type="button">Romantique</button>
+            <button type="button">Animaux autorisés</button>
+            <!--Contient les filtres-->
+            <h3> Plus de 500 logements sont disponibles dans cette ville</h3>
 
-        <section id="sectionhébergement"><!--Les hébergements--></section>
+        <section id="sectionrecherche">
+            <input type="search" id="site-search" name="Reservia"
+                   aria-label="Search through site content">
+            <button>Rechercher</button><!--Contient la barre de recherche--></section>
 
-        <aside id="sectionpopulaire"><!--Hébergements populaire--></aside>
+        <section id="sectionhébergement">
+            <h4>Hébergement à Marseille</h4>
+            <div= class"hebergements"> 
+                <img id="images" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge_de_la_Cannebière"><h3>Auberge de la Cannebière</h3><p>Nuit à partir de 25€</p>
+                <i class="fas fa-star bluestar"></i><i class="fas fa-star bluestar"></i><i class="fas fa-star bluestar"></i><i class="fas fa-star bluestar"></i><i class="fas fa-star greystar"></i>
+            /div>
+            <!--Les hébergements--></section>
 
-        <section id="sectionactivitée"><!--Activitée--></section>
+        <aside id="sectionpopulaire">
+            <h4>Les plus populaires</h4><!--Hébergements populaire--></aside>
 
-        <footer></footer>
+        <section id="sectionactivitée">
+            <h4>Activités à Marseille</h4><!--Activitée--></section>
+
+        <footer>
+            <h6>À propos</h6>
+            <h6>Nos hébergements</h6>
+            <h6>Assistance</h6>
+        </footer>
         
 
 
