@@ -1,11 +1,131 @@
 /* Police */
 
-body {font-family: 'Raleway', sans-serif;}
+body {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    margin: 0px;
+
+}
+a {
+    color: black;
+}
+#pagecontent {
+    width: 95%;
+    margin: auto;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Logo_Reservia {
+    width: 70px;
+
+}
+#logo {
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img {
+    width: 30px;
+    height: 30px;
+}
+
+img{
+    width: 250px;
+    float: left;
+    box-shadow: 0px Opx 17px #1BBB;
+   }
+   nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1250px; max-width: 1350px;}
+
+   #navbutton {display: flex; justify-content: flex-end;}
+   #navhebergement {
+    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
+   }
+   #navactivity {
+    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
+   }
+   #inscription {
+    font-size: 0.9em; font-weight: bold; color: #0065FC; margin-top: 27px
+   }
 
 
-.bluestar{
+button {
+
+    color: black;
+    border-bottom: 50px;
+}
+
+.images {
+    position: absolute;
+top:0;
+left:0;
+width:300px;
+z-index:100;
+}
+
+.imageflottante {
+    text-align: center;
+}
+.bluestar {
     color: #0065FC;
 }
-.greystar{
+.greystar {
     color: #9b9494;
 }
+.blueheart { 
+    color: #0065FC;
+}
+.bluedog {
+    color: #0065FC
+}
+.bluebill {
+    color: #0065FC
+}
+.bluesnow {
+    color: #0065FC
+}
+.blueinfo {
+    color: #0065FC
+}
+
+
+  /*  
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #323; }
+
+    .contenu-footer {
+        width: 1200px;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 20px;
+        padding: 50px 0 100px;
+    }
+    .bloc {
+        width: 25%;
+        margin: 0 30px;
+    }
+*/
+footer
+{
+display: flex; justify-content: space-around;
+padding-bottom: 30px;
+padding-top: 30px;
+margin-top: 40px;
+
+}
+
+
+
+
+
