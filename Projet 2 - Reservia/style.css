@@ -52,13 +52,39 @@ img{
    #inscription {
     font-size: 0.9em; font-weight: bold; color: #0065FC; margin-top: 27px
    }
-
+#grill {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    justify-content: space-around;
+}
 
 button {
 
     color: black;
     border-bottom: 50px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    float: left;
+    margin: 2px;
 }
+
+h3 {
+    font-size: 10px;
+    color:gray;
+    text-align: justify;
+
+}
+
+#hotel {
+
+   text-align: center;
+   clear: both;
+}
+
 
 .images {
     position: absolute;
