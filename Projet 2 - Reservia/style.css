@@ -67,12 +67,22 @@ button {
     width: 150px;
     text-align: center;
     color: gray;
+    border: 4px gray;
     text-decoration: none;
     float: left;
     margin: 2px;
 }
 
+.sectionfiltre {
+    background-color:black;
+    padding:10px;
+    border-radius: 50%;
+}
+
+
+
 h3 {
+    font-family:sans-serif;
     font-size: 10px;
     color:gray;
     text-align: justify;
@@ -105,6 +115,12 @@ z-index:100;
 }
 .blueheart { 
     color: #0065FC;
+    position: left;
+    text-align: left;
+    width: 33%;
+    height: 10%;
+    font-size:14px;
+    margin-top: 10px;
 }
 .bluedog {
     color: #0065FC
