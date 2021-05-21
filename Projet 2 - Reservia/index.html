@@ -46,10 +46,15 @@
         <section id="sectionrecherche">
             <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
             <h2>En pleins centre ville ou en pleine nature</h2>
-            <input type="search" id="site-search" name="Reservia"
-                   aria-label="Search through site content">
-                   <i class="fas fa-map-marker-alt"></i>
-            <button>Rechercher</button><!--Contient la barre de recherche--></section>
+                <form method="post" action="traitement.php">
+                       <p>
+                         <i class="fas fa-map-marker-alt"></i>
+                        <input type="search" id="search" name="Reservia"
+                        label="Chercher des lieux" placeholder="Marseille,France"> 
+                        </p>
+                </form>
+             <button>Rechercher</button><!--Contient la barre de recherche-->
+        </section>
 
         <section id="sectionhébergement">
             <div id="hotel"><h4>Hébergement à Marseille</h4>
