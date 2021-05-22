@@ -8,11 +8,17 @@ body {
 }
 a {
     color: black;
+    text-decoration: none;
 }
+
 #pagecontent {
     width: 95%;
     margin: auto;
 }
+
+/* Styles sur le header */
+
+
 header {
     display:flex;
     justify-content: space-between;
@@ -20,14 +26,12 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.Logo_Reservia {
-    width: 70px;
 
-}
 #logo {
-    display:flex;
-    flex-direction: row;
-    align-items: baseline;
+    width: 85px;
+    position: absolute;
+    top: 30px;
+    margin-left: 2%;
 }
 
 #logo img {
@@ -40,102 +44,257 @@ img{
     float: left;
     box-shadow: 0px Opx 17px #1BBB;
    }
-   nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1250px; max-width: 1350px;}
 
-   #navbutton {display: flex; justify-content: flex-end;}
-   #navhebergement {
-    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
+nav {
+    margin-bottom: 70px; 
+    margin-right: 2%; 
+    margin-left: 2%; 
+    
+}
+
+#navbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navhebergement {
+    font-weight: 500; 
+    font-size: 0.9em; 
+    margin-right: 50px;
+    padding: 25px 20px 0 20px;
+    border-top: solid white 2px;
    }
-   #navactivity {
-    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
+
+#navactivity {
+    font-weight: 500;
+    font-size: 0.9em;
+    margin-right: 50px;
+    padding: 25px 20px 0 20px;
+    border-top: solid white 2px;
    }
-   #inscription {
-    font-size: 0.9em; font-weight: bold; color: #0065FC; margin-top: 27px
+
+#inscription {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #0065FC;
+    margin-top: 27px
    }
+
+#inscription:hover {
+    color: black
+}
+
+#navhebergement:hover, #navactivity:hover {
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
+}
+
+/* Styles sur sectionfiltre */
+#sectionfiltre {
+    margin-right: 2%; 
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+#title {
+    min-width: 550px;
+    margin-bottom: 15px;
+}
+
+#sectionrecherche {
+    display: flex;
+}
+
+.fa-map-marker-alt {
+    background-color: #f2f2f2;
+    border-radius: 13px 0 0 13px;
+    padding-left: 14px;
+    padding-right: 14px; 
+    padding-top: 12px;
+}
+
+input {border: 1px solid #f2f2f2;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 0.9em; ; height: 35px; padding-left: 15px;
+    width: 182px;
+}
+
+button {
+    color : white;
+    background-color: #0065FC;
+    font-family: 'Raleway';
+    font-weight: 600; 
+    border: solid 1px transparent; 
+    border-radius: 0 13px 13px 0;
+    font-size: 0.9em;
+    width: 110px;
+}
+
+.fa-search {
+    color: transparent;
+}   
+
+button:hover {color: #0065FC;
+    background: white;
+    border: 1px solid #f2f2f2;
+    transition: 400ms;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+   
+#filtersarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 850px;
+}
+
+#filters {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#economic, #family, #romantic, #animals {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 15px; 
+    border-top: 2.5px solid #f2f2f2;
+    border-bottom: 2.5px solid #f2f2f2;
+    border-right: 3px solid #f2f2f2;
+    border-radius: 0 25px 25px 0;
+    padding: 12px 20px 10px 33px;
+}
+
+.fa-heart, .fa-dog {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%; 
+    padding: 14px;
+    position: relative;
+    left: 24px;
+} 
+
+.fa-money-bill-wave {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%; 
+    padding: 14px 12px;
+    position: relative;
+    left: 24px;
+}
+
+.fa-child {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%; 
+    padding: 14px 17px;
+    position: relative;
+    left: 24px;
+}
+
+#economic:hover, #family:hover, #romantic:hover, #animals:hover {
+    background-color: #0065FC;
+    color: white;
+    border-bottom: 2.5px solid transparent;
+    border-top: 2.5px solid transparent;
+    border-right: 3px solid transparent;
+    transition: 400ms;
+}
+
+.fa-info {
+    font-size: 10px;
+    color: #0065FC;
+    border: solid 2px #f2f2f2;
+    border-radius: 100%;
+    padding: 4px 7px;
+}
+
+#info {
+    font-size: 0.85em;
+    margin-left: 3px;
+}
+
+/*Styles de la section hébergement*/
+
+figure {
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#sectionhébergement {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+
+.fa-star {
+    color: blue;
+    font-size: 0.8em;
+
+}
+#hotel {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 20px 0px 30px 20px
+}
+#hotel h4 {
+    margin-left: 20px ;
+}
+
 #grill {
     display: flex;
     flex-wrap: wrap;
     margin-right: 20px;
     justify-content: space-around;
-    padding: 25px 20px 0 20px;
-    border-top: black;
 }
 
-button {
-
-    color: black;
-    border-bottom: 50px;
-    display: block;
-    width: 150px;
-    text-align: center;
-    color: gray;
-    border: 4px gray;
-    text-decoration: none;
-    float: left;
-    margin: 2px;
-}
-
-.sectionfiltre {
-    background-color:black;
-    padding:10px;
-    border-radius: 50%;
+.box {
+    width: 30%;
+    min-width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
-
-h3 {
-    font-family:sans-serif;
-    font-size: 10px;
-    color:gray;
-    text-align: justify;
-
+.box figure{
+    background-color: white;
+    min-width: 200px;
+    box-shadow: #c3c3c3 10px 10px 10px ;
+}
+.box:hover{
+    transform: scale(1.05);
 }
 
-#hotel {
-
-   text-align: center;
-   clear: both;
+.box figure img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.box figcaption{
+    margin-left: 15px;
 }
 
 
-.images {
-    position: absolute;
-top:0;
-left:0;
-width:300px;
-z-index:100;
-}
 
-.imageflottante {
-    text-align: center;
-}
-.bluestar {
-    color: #0065FC;
-}
-.greystar {
-    color: #9b9494;
-}
-.blueheart { 
-    color: #0065FC;
-    position: left;
-    text-align: left;
-    width: 33%;
-    height: 10%;
-    font-size:14px;
-    margin-top: 10px;
-}
-.bluedog {
-    color: #0065FC
-}
-.bluebill {
-    color: #0065FC
-}
-.bluesnow {
-    color: #0065FC
-}
-.blueinfo {
-    color: #0065FC
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /*  
