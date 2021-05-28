@@ -16,6 +16,16 @@ a {
     margin: auto;
 }
 
+.imageflottantedroite /*hotels & activites names*/
+{font-weight: bold;}
+
+figure /*all figures*/
+{
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+
 /* Styles sur le header */
 
 
@@ -219,12 +229,6 @@ input:focus, button:focus {
 
 /*Styles de la section hébergement*/
 
-figure {
-    border-radius: 20px;
-    margin: 15px;
-    padding: 5px;
-}
-
 #sectionhébergement {
     display: flex;
     justify-content: space-around;
@@ -237,6 +241,13 @@ figure {
     font-size: 0.8em;
 
 }
+
+.greystar{
+    color: #d9d9d9;
+}
+
+
+
 #hotel {
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -245,6 +256,11 @@ figure {
 }
 #hotel h4 {
     margin-left: 20px ;
+}
+
+#afficher{
+    margin-left: 25px;
+    font-weight: bold;
 }
 
 #grill {
@@ -279,6 +295,54 @@ figure {
 }
 .box figcaption{
     margin-left: 15px;
+}
+
+/*Section Populaires*/
+
+aside{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px
+    ;
+}
+
+#sectionpopulaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 0px 35px;
+}
+#sectionpopulaire i {
+    font-size: 1.3em;
+}
+
+#pop{
+    margin: 0px 5px 20px 15px;
+}
+
+.boxpop {
+    display: flex;
+    height: 200px;
+    min-width: 320px;
+    margin-right: 15px;
+}
+.boxpop figure{
+    display: flex;
+    background-color: white;
+    box-shadow: #c3c3c3 10px 10px 10px;
+}
+.boxpop img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.boxpop figcaption{
+    margin-left: 15px;
+}
+.boxpop:hover{
+    transform: scale(1.03);
 }
 
 
