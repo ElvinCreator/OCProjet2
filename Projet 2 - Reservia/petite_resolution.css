@@ -1,0 +1,30 @@
+@media screen and (max-width: 1280px)
+{
+    #pagecontent
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+
+}
+
