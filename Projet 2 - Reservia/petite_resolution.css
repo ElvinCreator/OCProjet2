@@ -1,30 +1,62 @@
-@media screen and (max-width: 1280px)
+/*** smartphone ***/
+@media screen and (min-width:375px)and (max-width:667px)
 {
+    /*** Header + Filtres ***/
     #pagecontent
     {
         width: auto;
-    }
-    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-
-    nav a:hover
-    {
-        border-bottom: 0;
-    }
-    section
-    {
         flex-direction: column;
     }
 
-    article, aside
-    {
-        width: auto;
-        margin-bottom: 15px;
-    }
-    
+    #logo {
 
+    }
+
+    nav {
+        width: auto;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #navbutton {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 4px;
+        border-bottom: 0;
+    }
+
+    #inscription {
+
+        flex-direction: column;
+
+    }
+
+    #sectionhebergement {
+        flex-direction: column;
+    }
+
+    #sectionactivite {
+        flex-direction: column;
+    }
+
+    #sectionhebergement:hover, #sectionactivite:hover {
+        width: auto;
+
+    }
+
+
+    /*** Header + Filtres ***/
+
+
+
+
+
+}
+
+
+/*** ipad ***/
+@media screen and (min-width:768px) and (max-width: 1024px)
+{
+    
 }
 
