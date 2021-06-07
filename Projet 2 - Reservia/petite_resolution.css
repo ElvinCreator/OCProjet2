@@ -114,9 +114,16 @@
     }
     
     #sectionhebergement {
-
-        width: 100%;
+        flex-direction: column;
         justify-content: center;
+
+    }
+
+    #sectionpopulaire {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    
 
     }
 }
