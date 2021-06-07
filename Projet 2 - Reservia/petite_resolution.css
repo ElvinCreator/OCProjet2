@@ -4,34 +4,70 @@
     /*** Header + Filtres ***/
     #pagecontent
     {
-        width: auto;
-        flex-direction: column;
+        width: 98%;
+        
+    }
+
+    h1 {
+        font-size: 20px;
     }
 
     #logo {
-
+        width: 90px;
+        top: 20px;
+        left: 8%;
     }
 
     nav {
         width: auto;
-        text-align: left;
-        flex-direction: column;
+        margin-left: 0px; height: 145px; margin-bottom: 0px;
     }
 
     #navbutton {
-        display: flex;
-        justify-content: flex-end;
-        padding-left: 4px;
-        border-bottom: 0;
+        display: block;
+        
     }
 
     #inscription {
 
-        flex-direction: column;
+        position:absolute;
+        top: 10px;
+        right: 6%;
+
+    }
+    #navhebergement {       
+        min-width: 50%; text-align: center; position: absolute; top: 85px; border-bottom: #f2f2f2 2px solid;
+        margin: 0 0 0 0; padding: 0 0 10px 0;
+}
+    #navactivity {
+        min-width: 50%; text-align: center; position: absolute; top: 85px; left: 50%; 
+    border-bottom: #f2f2f2 2px solid; margin: 0 0 0 0; padding: 0 0 10px 0;
+
+    }
+    #navhebergement:hover, #navactivity,:hover {
+        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;
+    }
+
+    #sectionfiltre {
+        margin-left: 5%;
+    }
+
+    #maintitle {
+        font-size: 120%;
+        position: absolute;
+        text-align: justify;
 
     }
 
+    #sectionrecherche {
+        
+    }
+
+
+   
+
     #sectionhebergement {
+        position: absolute;
         flex-direction: column;
     }
 
@@ -41,10 +77,19 @@
 
     #sectionhebergement:hover, #sectionactivite:hover {
         width: auto;
+        transform: scale(1.03);
+        color: #0065FC;
+        border-top: solid 2px #0065FC;
 
     }
 
+    #filtersarea {
+        width: 50%;
+        padding: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px;
 
+    }
     /*** Header + Filtres ***/
 
 
@@ -57,6 +102,22 @@
 /*** ipad ***/
 @media screen and (min-width:768px) and (max-width: 1024px)
 {
+    #pagecontent {
+        width: 98%;
+    }
+
+    #filtersarea {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        min-width: 600px;
+        width: 70%;
+    }
     
+    #sectionhebergement {
+
+        width: 100%;
+        justify-content: center;
+
+    }
 }
 
