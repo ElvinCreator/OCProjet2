@@ -61,12 +61,10 @@
     }
 
     #sectionrecherche {
+        display: flex;
         padding-top: 10%;
         
     }
-
-
-   
 
     #sectionhebergement {
         position: absolute;
@@ -88,15 +86,26 @@
     #filtersarea {
         width: 50%;
         padding: 2px;
+        margin-left: 4px;
         margin-top: 30px;
         margin-bottom: 30px;
-        flex-direction: column;
-        position: relative;
+        flex-wrap: wrap;
         top: 25px;
+
     }
+
+   
     /*** Header + Filtres ***/
 
-
+    footer
+    {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 40px;
+    }
 
 
 
@@ -134,9 +143,41 @@
         background-color: white;
         padding-bottom: 30px;
         margin-top: 30px;
+    }
 
+
+        .boxpop figure{
+            display: flex;
+            background-color: white;
+            box-shadow: #c3c3c3 10px 10px 10px;
+        }
+        .boxpop img{
+            width: 40%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px 0px 0px 20px;
+        }
+        .boxpop figcaption{
+            margin-left: 15px;
+        }
+        .boxpop:hover{
+            transform: scale(1.03);
+        }
     
 
+
     }
+
+    footer
+    {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 40px;
+    }
+
+
 }
 
