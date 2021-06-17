@@ -370,7 +370,14 @@
         #activitee figcaption{
             font-size: 1.1em;
         }
-
+        #activitee p {
+            padding: 140px 70px 10px 10px;
+            border-radius: 10px 4px 10px 4px;
+            box-shadow: 3px 3px 0px rgb(216, 210, 210);
+            
+        
+           
+        }
     
 
     footer
