@@ -108,6 +108,7 @@
         background-color: white;
         border-radius: 0px;
         width: 100%;
+
     }
 
     #aside {
@@ -131,6 +132,7 @@
 
 
     .boxpop {
+        margin: auto;
         display: flex;
         height: 200px;
         min-width: 200px;
@@ -164,15 +166,20 @@
 
     #sectionactivitee h4 {
         margin-left: 6%;
+        padding: 20%;
+        border: solid;
     }
 
     #activitee {
         flex-direction: column;
         width: 98%;
+        align-items: center;
     }
 
     #activitee p {
         padding: 145px 70px 10px 10px;
+        border: solid;
+       
     }
 
     .grill-1 {
@@ -228,6 +235,7 @@
         
 }
 
+        
 
 
 }
@@ -338,7 +346,7 @@
             width: 100%;
         }
         .grill-1 figure{
-            height: 200px;
+            height: 150px;
         }
         .grill-1 img{
             height: 155px;
