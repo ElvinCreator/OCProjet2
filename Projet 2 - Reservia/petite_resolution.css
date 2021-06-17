@@ -143,7 +143,7 @@
         height: 200px;
         min-width: 200px;
         margin-right: 15px;
-        
+
     }
 
     #hotel {
@@ -279,10 +279,32 @@
 
     }
 
+    #sectionhebergement h4 {
+        font-size: 20px;
+    }
+
     #hotel{
         background-color: white;
         align-items: center;
     }
+
+    #grill p {
+        font-size: 100%;
+        padding : 4px 4px 0px 0px;
+    }
+
+    .box figure {
+        width: 100%;
+        height: 270px;
+        font-size: 18px;
+
+    }
+
+    .box figure img {
+        width: 100%;
+        height: 112px;
+    }
+
     #hotel h4 {
         margin-left:1%;
     }
@@ -337,12 +359,17 @@
         #sectionpopulaire{
             padding-left: 3%;
         }
+
+        #sectionpopulaire h4 {
+            font-size: 20px;
+        }
         .fa-chart-line{
             padding-right: 3%;
         }
 
 
         #sectionactivitee h4{
+            font-size: 20px;
             margin-left: 2%;
         }
         #activitee{
