@@ -199,6 +199,11 @@ margin-left: -5%;}
         flex-direction: column-reverse;
     }
 
+    .imageflottante 
+{
+    font-size: 0.9em;
+}
+
     #hotel{
         background-color: white;
         align-items: center;
